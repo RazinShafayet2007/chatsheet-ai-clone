@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatsheet | The AI Spreadsheet</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <div class="logo-container">
+                <a href="#"><img src="https://dev.tryecho.ai/_app/immutable/assets/logo_dark_mono.CifrtVuv.svg"
+                        alt="Logo" class="logo-image">
+                </a>
+            </div>
+            <div class="nav-links">
+                <a class="nav-link-3">Features</a>
+                <div class="menulist-1">
+                    <ul>
+                        <li>AI Web Scraping</li>
+                        <p>Gather data from websites automatically</p>
+                        <li>AI PDF Processing</li>
+                        <p>Extract insights from PDF document</p>
+                    </ul>
+                </div>
+                <a class="nav-link-4">Use Cases</a>
+                <div class="menulist-2">
+                    <ul>
+                        <li>E-commerce Competitor Reasearch</li>
+                        <p>Analyze and track competitor strategies</p>
+                        <li>AI Resume Screening</li>
+                        <p>Review Resumes 100X Faster with AI</p>
+                    </ul>
+                </div>
+                <a class="nav-link-1">Integrations</a>
+                <a class="nav-link-2">Pricing</a>
+            </div>
+        </div>
+        <div class="navbar-right">
+            <button class="google-login-button">
+                <span class="google-login-text">Google Login</span>
+                <svg class="google-icon" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#EA4335"
+                        d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z" />
+                    <path fill="#4285F4"
+                        d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z" />
+                    <path fill="#FBBC05"
+                        d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z" />
+                    <path fill="#34A853"
+                        d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z" />
+                    <path fill="none" d="M0 0h48v48H0z" />
+                </svg>
+            </button>
+            <button class="start-free-button">
+                Start For Free
+                <div class="arrow-icon-container">
+                    <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M3.714 3.048a.498.498 0 0 0-.683.627l2.843 7.627a2 2 0 0 1 0 1.396l-2.842 7.627a.498.498 0 0 0 .682.627l18-8.5a.5.5 0 0 0 0-.904z"
+                            fill="currentColor"></path>
+                    </svg>
+                </div>
+        </div>
+        </button>
+        </div>
+    </nav>
+    <div class="hero-1">
+        <h1 class="heading-1">Scale Without</h1>
+        <h1 class="heading-2">the Headcount</h1>
+        <p class="para-1">Automate research, content creation, and more in</p>
+        <p class="para-2">seconds using a familiar spreadsheet interface.</p>
+        <div class="buttons">
+            <button class="start-free-button-2">
+                Start For Free
+                <div class="arrow-icon-container-2">
+                    <svg class="arrow-icon-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M3.714 3.048a.498.498 0 0 0-.683.627l2.843 7.627a2 2 0 0 1 0 1.396l-2.842 7.627a.498.498 0 0 0 .682.627l18-8.5a.5.5 0 0 0 0-.904z"
+                            fill="currentColor"></path>
+                    </svg>
+                </div>
+            </button></button><button class="book-demo-button">Book a Demo</button>
+        </div>
+    </div>
+    </div>
+    <div class="video-container">
+        <video class="video" autoplay loop muted>
+            <source src="https://dev.tryecho.ai/_app/immutable/assets/demo-compressed.B4TsFrTU.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="trusted-section">
+        <div class="trusted-text">
+            <p>Trusted by professionals at</p>
+        </div>
+        <div class="logos-wrapper">
+            <div class="logos-marquee">
+                <!--<div class="logos-track">
+              <div class="logo"><img src="https://dev.tryecho.ai/_app/immutable/assets/bessemer.Ugqf69RI.svg" alt="Bessemer Venture Partners logo"></div> -->
+                <div class="logo clay">
+                    <img src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/615f47680c88b1b9f8dee534_clay-logo-icon.webp"
+                        alt="">
+                </div>
+                <div class="logo"><img src="https://dev.tryecho.ai/_app/immutable/assets/amplify.DyGaM-DX.svg"
+                        alt="Amplify logo" height="36.36px" width="144.84px"></div>
+                <div class="logo"><img src="https://dev.tryecho.ai/_app/immutable/assets/golden-gate.Uj5Zp45y.svg"
+                        alt="Golden Gate Ventures logo"></div>
+                <!--<div class="logo"><img src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/615f47680c88b1b9f8dee534_clay-logo-icon.webp" alt="Clay logo"></div>-->
+                <div class="logo"><img src="https://dev.tryecho.ai/_app/immutable/assets/pawty-blue.uxt8cvrc.png"
+                        alt="Pawty logo"></div>
+                <div class="logo"><img src="https://dev.tryecho.ai/_app/immutable/assets/felicis.CyyYFS78.svg"
+                        alt="Felicis Ventures logo" height="42px" width="144px"></div>
+                <div class="logo"><img src="https://dev.tryecho.ai/_app/immutable/assets/bessemer.Ugqf69RI.svg"
+                        alt="Bessemer Venture Partners logo" height="48px" width="112px"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="backed-section">
+        <div class="backed-text">
+            <p>Backed By</p>
+        </div>
+        <div class="logos-wrapper-2">
+            <div class="logos-marquee-2">
+                <div class="logos-track">
+                </div>
+                <!--<div class="logo clay">
+                    <img src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/615f47680c88b1b9f8dee534_clay-logo-icon.webp"
+                        display="none" alt="">-->
+                <div class="logo">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgMjAwIj4KICA8dGV4dCB4PSIyMDAiIHk9IjExMCIgCiAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiAKICAgICAgICBmb250LXNpemU9IjcyIgogICAgICAgIGZvbnQtd2VpZ2h0PSJub3JtYWwiCiAgICAgICAgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgZmlsbD0iIzIyMiI+CiAgICBEYW5pZWwgR3Jvc3MKICA8L3RleHQ+Cjwvc3ZnPg=="
+                        alt="Daniel Gross logo" height="56px" width="112px">
+                </div>
+                <div class="logo">
+                    <img src="https://dev.tryecho.ai/_app/immutable/assets/felicis.CyyYFS78.svg" alt="Felicis logo"
+                        height="192.5px" width="56px">
+                </div>
+                <div class="logo">
+                    <img src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20standalone=%27no%27?%3e%3c!DOCTYPE%20svg%20PUBLIC%20%27-//W3C//DTD%20SVG%2020010904//EN%27%20%27http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd%27%3e%3csvg%20version=%271.0%27%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%27400.000000pt%27%20height=%27400.000000pt%27%20viewBox=%270%200%20400.000000%20400.000000%27%20preserveAspectRatio=%27xMidYMid%20meet%27%3e%3cg%20transform=%27translate(0.000000,400.000000)%20scale(0.100000,-0.100000)%27%20fill=%27%23653AA5%27%20stroke=%27none%27%3e%3cpath%20d=%27M1830%203620%20c-190%20-24%20-368%20-75%20-537%20-156%20-312%20-149%20-608%20-445%20-757%20-757%20-218%20-458%20-218%20-966%200%20-1424%20149%20-312%20445%20-608%20757%20-757%20458%20-218%20966%20-218%201424%200%20312%20149%20608%20445%20757%20757%2085%20177%20133%20349%20155%20549%2012%20108%2014%20224%205%20281%20l-7%2037%20-829%200%20c-827%200%20-830%200%20-868%20-21%20-46%20-26%20-80%20-83%20-80%20-134%200%20-51%2034%20-108%2080%20-134%2037%20-21%2044%20-21%20714%20-21%20l676%200%20-6%20-32%20c-50%20-300%20-166%20-529%20-374%20-739%20-200%20-201%20-423%20-320%20-706%20-375%20-119%20-23%20-338%20-24%20-459%20-1%20-487%2093%20-879%20437%20-1029%20902%20-81%20254%20-81%20546%200%20800%2062%20191%20162%20359%20302%20506%20356%20375%20874%20507%201367%20349%20301%20-97%20587%20-330%20740%20-605%20l37%20-65%20169%200%20169%200%20-9%2023%20c-72%20190%20-210%20394%20-372%20555%20-239%20235%20-541%20390%20-874%20447%20-112%2019%20-345%2027%20-445%2015z%27/%3e%3cpath%20d=%27M1853%202876%20c-355%20-68%20-621%20-314%20-714%20-661%20-29%20-105%20-32%20-316%20-6%20-419%2044%20-175%20117%20-306%20242%20-431%20125%20-125%20256%20-198%20431%20-242%2099%20-24%20305%20-24%20404%201%20161%2041%20322%20130%20425%20235%20l49%2051%20-364%200%20c-412%200%20-453%205%20-578%2067%20-189%2093%20-322%20307%20-322%20518%200%20209%20133%20424%20320%20518%20123%2062%20167%2067%20580%2067%20l364%200%20-49%2051%20c-100%20102%20-254%20189%20-410%20231%20-94%2025%20-278%2032%20-372%2014z%27/%3e%3c/g%3e%3c/svg%3e"
+                        alt="General Catalyst logo">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="use-cases-by-industry">
+        <p>Use Cases by Industry</p>
+        <h2 class="use-case-h1">From Prompt to</h2>
+        <h2 class="use-case-h1">Output in Seconds</h2>
+        <div class="button-group">
+            <button class="tab active">Sales</button>
+            <button class="tab">Marketing</button>
+            <button class="tab">Operations</button>
+            <button class="tab">Venture Capital</button>
+            <button class="tab">Investing</button>
+            <button class="tab">Recruiting</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="section-header">
+            <h3>Sales & Go-To-Market</h3>
+            <div class="input-box">
+                <p>Analyze these <span class="highlight">@prospects</span> and suggest personalized outreach <span
+                        class="blinking-cursor">|</span></p>
+            </div>
+        </div>
+
+        <div class="table-wrapper">
+            <div class="table">
+                <div class="table-head">
+                    <div class="table-cell" style="font-size: 14px;"><img src="Photos/Prospects.png">Prospects</div>
+                    <div class="table-cell" style="font-size: 14px;"><img src="Photos/AI Insights.png">AI Insights</div>
+                    <div class="table-cell" style="font-size: 14px;"><img
+                            src="Photos/Recommended Actions.png">Recommended Actions</div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell">
+                        <img src="https://dev.tryecho.ai/_app/immutable/assets/sheelts-alt.Dy_ieesi.png" alt="icon">
+                        Acme Corp
+                    </div>
+                    <div class="table-cell">
+                        Recently raised $15M Series B, expanding team by 40.....
+                    </div>
+                    <div class="table-cell">
+                        Highlight enterprise features, data integration capabi.....
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell">
+                        <img src="https://dev.tryecho.ai/_app/immutable/assets/sheelts-alt.Dy_ieesi.png" alt="icon">
+                        TechGrowth Inc
+                    </div>
+                    <div class="table-cell">
+                        New CTO hired from competitor last month. Previo....
+                    </div>
+                    <div class="table-cell">
+                        Technical deep-dive approach focusing on scalability....
+                    </div>
+                    <div class="table-row">
+                        <div class="table-cell">
+                            <img src="https://dev.tryecho.ai/_app/immutable/assets/sheelts-alt.Dy_ieesi.png" alt="icon">
+                            Global Retail Solutions
+                        </div>
+                        <div class="table-cell">
+                            Q3 expansion to European markets planned. Curre....
+                        </div>
+                        <div class="table-cell">
+                            Compliance and localization focus in outreach. Highli....
+                        </div>
+                        <div class="table-row">
+                            <div class="table-cell">
+                                <img src="https://dev.tryecho.ai/_app/immutable/assets/sheelts-alt.Dy_ieesi.png"
+                                    alt="icon">
+                                HealthTech Innovations
+                            </div>
+                            <div class="table-cell">
+                                Budget approval for AI initiatives secured last quarter....
+                            </div>
+                            <div class="table-cell">
+                                ROI-focused case studies highlighting accuracy imp....
+                            </div>
+                            <div class="table-row">
+                                <div class="table-cell">
+                                    <img src="https://dev.tryecho.ai/_app/immutable/assets/sheelts-alt.Dy_ieesi.png"
+                                        alt="icon">
+                                    EdTech Pioneers
+                                </div>
+                                <div class="table-cell">
+                                    Dissatisfied with current vendor due to support issues....
+
+
+                                </div>
+                                <div class="table-cell">
+                                    Migration support emphasis highlighting white-glove.....
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="table-off-content">
+            <p>Transform your sales process with intelligent automation. Your assistant can analyze prospect data,
+                generate personalized outreach, and provide actionable competitive intelligence.</p>
+            <button class="try-chatsheet-button">
+                Try in Chatsheet
+                <div class="arrow-icon-container-3">
+                    <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M3.714 3.048a.498.498 0 0 0-.683.627l2.843 7.627a2 2 0 0 1 0 1.396l-2.842 7.627a.498.498 0 0 0 .682.627l18-8.5a.5.5 0 0 0 0-.904z"
+                            fill="currentColor"></path>
+                    </svg>
+                </div>
+        </div>
+        </button>
+    </div>
+
+    <div class="reason-chatsheet">
+        <p>Why Chatsheet</p>
+        <h2 class="reason-h1">Why Teams</h2>
+        <h2 class="reason-h2">Choose Chatsheet</h2>
+        <div class="automate-task">
+            <div class="automate-task-div">
+                <h3>Automate Any Task</h3>
+                <p>
+                    Summarize documents, scrape websites, analyze data, and generate content — all powered by AI.
+                </p>
+                <button class="start-free-button-2">
+                    Start For Free
+                    <div class="arrow-icon-container-2">
+                        <svg class="arrow-icon-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M3.714 3.048a.498.498 0 0 0-.683.627l2.843 7.627a2 2 0 0 1 0 1.396l-2.842 7.627a.498.498 0 0 0 .682.627l18-8.5a.5.5 0 0 0 0-.904z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </div>
+                </button>
+            </div>
+        </div>
+        <div class="no-code-action-cell">
+            <div class="no-code">
+                <div class="no-code-div">
+                    <h3>No-Code Interface</h3>
+                    <p>
+                        Build complex workflows with just a spreadsheet. No technical skills or setup required.
+                    </p>
+                </div>
+            </div>
+            <div class="action-cell">
+                <div class="action-cell-div">
+                    <h3>Built with Action Cells</h3>
+                    <p>
+                        Each cell acts as a smart agent that processes data and gets work done at scale.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="transformative-results">
+            <div class="transformative-results-div">
+                <h3>Transformative Results</h3>
+                <p>
+                    Our users achieve extraordinary outcomes.
+                </p>
+                <button class="start-free-button-2">
+                    Start For Free
+                    <div class="arrow-icon-container-2">
+                        <svg class="arrow-icon-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M3.714 3.048a.498.498 0 0 0-.683.627l2.843 7.627a2 2 0 0 1 0 1.396l-2.842 7.627a.498.498 0 0 0 .682.627l18-8.5a.5.5 0 0 0 0-.904z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="features">
+        <p>Features</p>
+        <h2 class="features-h1">All the Power, None</h2>
+        <h2 class="features-h2">of the Complexity</h2>
+        <div class="workflow-collab-parsing">
+            <div class="workflows">
+                <div class="workflows-div">
+                    <h3>Spreadsheet Based Workflows</h3>
+                </div>
+            </div>
+            <div class="collaboration">
+                <div class="collaboration-div">
+                    <h3>Realtime Collaboration</h3>
+                </div>
+            </div>
+            <div class="parsing">
+                <div class="parsing-div">
+                    <h3>PDF and Document Parsing</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="comparison">
+        <p>Comparison</p>
+        <h2 class="comparison-h1">Chatsheet Transforms</h2>
+        <h2 class="comparison-h2">the Way You Work</h2>
+        <div class="before-after-chatsheet">
+            <div class="before-chatsheet">
+                <div class="before-chatsheet-div">
+                    <h3>Before: Copy Paste to ChatGPT 100s of times daily</h3>
+                </div>
+            </div>
+            <div class="after-chatsheet">
+                <div class="after-chatsheet-div">
+                    <h3>After Chatsheet: "GPT" all your data and tasks</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="integrations">
+        <p>Integrations</p>
+        <h2 class="integrations-h1">Integrate With All</h2>
+        <h2 class="integrations-h2">Your Favorite Tools</h2>
+        <div class="social-media">
+            <div class="card">
+                <div class="card-header">
+                    <div class="icon-packer">
+                        <img src="https://dev.tryecho.ai/_app/immutable/assets/chatgpt.CggweCvK.webp" alt="ChatGPT" class="icon-image" />
+                    </div>
+                    <div>
+                        <h3 class="card-title">ChatGPT</h3>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="tag">Generate Content</span>
+                    <span class="tag">Answer Questions</span>
+                    <span class="tag">Analyze Data</span>
+                    <span class="tag">Summarize Text</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <div class="icon-packer">
+                        <img src="https://dev.tryecho.ai/_app/immutable/assets/claude.B7p3Fa2T.png" alt="Claude" class="icon-image" />
+                    </div>
+                    <div>
+                        <h3 class="card-title">Claude</h3>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="tag">Process Documents</span>
+                    <span class="tag">Extract Insights</span>
+                    <span class="tag">Secure Analysis</span>
+                    <span class="tag">Generate Reports</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <div class="icon-packer">
+                        <img src="data:image/webp;base64,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" alt="Gemini" class="icon-image" />
+                    </div>
+                    <div>
+                        <h3 class="card-title">Gemini</h3>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="tag">Analyze Content</span>
+                    <span class="tag">Real-time Processing</span>
+                    <span class="tag">Generate Code</span>
+                    <span class="tag">Technical Solutions</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <div class="icon-packer">
+                        <img src="https://dev.tryecho.ai/_app/immutable/assets/youtube-alt.CMgb173L.png" alt="YouTube" class="icon-image" />
+                    </div>
+                    <div>
+                        <h3 class="card-title">YouTube</h3>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="tag">Extract Insights</span>
+                    <span class="tag">Create Transcriptions</span>
+                    <span class="tag">Generate Summaries</span>
+                    <span class="tag">Search Videos</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <div class="icon-packer">
+                        <img src="https://dev.tryecho.ai/_app/immutable/assets/amazon.Bo4ZsxAn.webp" alt="Amazon" class="icon-image" />
+                    </div>
+                    <div>
+                        <h3 class="card-title">Amazon</h3>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="tag">Search Products</span>
+                    <span class="tag">Track Prices</span>
+                    <span class="tag">Monitor Inventory</span>
+                    <span class="tag">Analyze Trends</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <div class="icon-packer">
+                        <img src="https://dev.tryecho.ai/_app/immutable/assets/linkedin.C4grI6w0.png" alt="LinkedIn" class="icon-image" />
+                    </div>
+                    <div>
+                        <h3 class="card-title">LinkedIn</h3>
+                    </div>
+                </div>
+                <div class="card-tags">
+                    <span class="tag">Send DMs</span>
+                    <span class="tag">Search People</span>
+                    <span class="tag">Search Companies</span>
+                    <span class="tag">Send Invites</span>
+                </div>
+            </div>
+        </div>
+        <button class="view-integrations-btn">
+            View All Integrations
+            <div class="view-arrow-icon-container">
+                <svg class="view-arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                        d="M3.714 3.048a.498.498 0 0 0-.683.627l2.843 7.627a2 2 0 0 1 0 1.396l-2.842 7.627a.498.498 0 0 0 .682.627l18-8.5a.5.5 0 0 0 0-.904z"
+                        fill="currentColor"></path>
+                </svg>
+            </div>
+        </button>
+    </div>
+    <div class="use-cases">
+        <p>Use Cases</p>
+        <h2 class="use-cases-h1">Smart Solutions</h2>
+        <h2 class="use-cases-h2">For Real Work</h2>
+        <div class="sales-automation">
+            <div class="sales-automation-div">
+                <h3>Sales Automation</h3>
+                <p>
+                    Generate personalized outreach, analyze prospect data, and uncover deal signals instantly.
+                </p>
+                <button class="start-free-button-2">
+                    Start For Free
+                    <div class="arrow-icon-container-2">
+                        <svg class="arrow-icon-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M3.714 3.048a.498.498 0 0 0-.683.627l2.843 7.627a2 2 0 0 1 0 1.396l-2.842 7.627a.498.498 0 0 0 .682.627l18-8.5a.5.5 0 0 0 0-.904z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </div>
+                </button>
+            </div>
+        </div>
+        <div class="content-document">
+            <div class="content-creation">
+                <div class="content-creation-div">
+                    <h3>Content Creation</h3>
+                    <p>
+                        Write blogs, ads, emails, and product copy at scale — tailored for every channel.
+                    </p>
+                </div>
+            </div>
+            <div class="document-processing">
+                <div class="document-processing-div">
+                    <h3>Document Processing</h3>
+                    <p>
+                        Extract structured data from contracts, PDFs, invoices, and forms in seconds.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="research">
+            <div class="research-div">
+                <h3>Research Leads & Competitors</h3>
+                <p>
+                    Scan the web, track competitors, and summarize trends with AI-powered insights.
+                </p>
+                <button class="start-free-button-2">
+                    Start For Free
+                    <div class="arrow-icon-container-2">
+                        <svg class="arrow-icon-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M3.714 3.048a.498.498 0 0 0-.683.627l2.843 7.627a2 2 0 0 1 0 1.396l-2.842 7.627a.498.498 0 0 0 .682.627l18-8.5a.5.5 0 0 0 0-.904z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="faqs-ans">
+        <div class="faqs">
+            <p class="paragraph-1">FAQs</p>
+            <h2>Have Questions? We Have Answers</h2>
+            <p class="paragraph-2">Browse our most common questions or get in touch with us for more in-depth
+                support.
+            </p>
+            <button class="get-in-touch-btn">
+                Get in Touch
+                <div class="get-arrow-icon-container">
+                    <svg class="get-arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M3.714 3.048a.498.498 0 0 0-.683.627l2.843 7.627a2 2 0 0 1 0 1.396l-2.842 7.627a.498.498 0 0 0 .682.627l18-8.5a.5.5 0 0 0 0-.904z"
+                            fill="currentColor"></path>
+                    </svg>
+                </div>
+            </button>
+        </div>
+        <div class="answer-btns">
+            <button class="ans-button">
+                <span class="ans-button-text">What kind of work can I automate with Chatsheet AI?</span>
+                <span class="chevron-icon-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="chevron-icon">
+                        <path d="m6 9 6 6 6-6"></path>
+                    </svg>
+                </span>
+            </button>
+            <button class="ans-button">
+                <span class="ans-button-text">How is Chatsheet AI different than ChatGPT?</span>
+                <span class="chevron-icon-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="chevron-icon">
+                        <path d="m6 9 6 6 6-6"></path>
+                    </svg>
+                </span>
+            </button>
+            <button class="ans-button">
+                <span class="ans-button-text">Why should I automate my work with AI?</span>
+                <span class="chevron-icon-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="chevron-icon">
+                        <path d="m6 9 6 6 6-6"></path>
+                    </svg>
+                </span>
+            </button>
+            <button class="ans-button">
+                <span class="ans-button-text">Can Chatsheet scrape and websites for me?</span>
+                <span class="chevron-icon-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="chevron-icon">
+                        <path d="m6 9 6 6 6-6"></path>
+                    </svg>
+                </span>
+            </button>
+            <button class="ans-button">
+                <span class="ans-button-text">Can Chatsheet automatically read PDF's and documents for me?</span>
+                <span class="chevron-icon-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="chevron-icon">
+                        <path d="m6 9 6 6 6-6"></path>
+                    </svg>
+                </span>
+            </button>
+            <button class="ans-button">
+                <span class="ans-button-text">Is Chatsheet AI free to use?</span>
+                <span class="chevron-icon-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="chevron-icon">
+                        <path d="m6 9 6 6 6-6"></path>
+                    </svg>
+                </span>
+            </button>
+            <button class="ans-button">
+                <span class="ans-button-text">How much time and money can I save with Chatsheet AI?</span>
+                <span class="chevron-icon-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="chevron-icon">
+                        <path d="m6 9 6 6 6-6"></path>
+                    </svg>
+                </span>
+            </button>
+            <button class="ans-button">
+                <span class="ans-button-text">How do I get started with Chatsheet AI?</span>
+                <span class="chevron-icon-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="chevron-icon">
+                        <path d="m6 9 6 6 6-6"></path>
+                    </svg>
+                </span>
+            </button>
+            <button class="ans-button">
+                <span class="ans-button-text">Can I collaborate with my team on Chatsheet AI?</span>
+                <span class="chevron-icon-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="chevron-icon">
+                        <path d="m6 9 6 6 6-6"></path>
+                    </svg>
+                </span>
+            </button>
+            <button class="ans-button">
+                <span class="ans-button-text">Is Chatsheet AI secure?</span>
+                <span class="chevron-icon-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="chevron-icon">
+                        <path d="m6 9 6 6 6-6"></path>
+                    </svg>
+                </span>
+            </button>
+        </div>
+    </div>
+    <div class="hero-last">
+        <h2 class="hero-last-1">Try It Now. See</h2>
+        <h2 class="hero-last-2">the Difference.</h2>
+        <div class="buttons">
+            <button class="start-free-button-2">
+                Start For Free
+                <div class="arrow-icon-container-2">
+                    <svg class="arrow-icon-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M3.714 3.048a.498.498 0 0 0-.683.627l2.843 7.627a2 2 0 0 1 0 1.396l-2.842 7.627a.498.498 0 0 0 .682.627l18-8.5a.5.5 0 0 0 0-.904z"
+                            fill="currentColor"></path>
+                    </svg>
+                </div>
+            </button></button><button class="book-demo-button">Book a Demo</button>
+        </div>
+    </div>
+    <div class="video-container-2">
+        <video class="video" autoplay loop muted>
+            <source src="https://dev.tryecho.ai/_app/immutable/assets/demo-compressed.B4TsFrTU.mp4" type="video/mp4">
+        </video>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-logo-section">
+                    <img src="https://dev.tryecho.ai/_app/immutable/assets/logo_dark_mono.CifrtVuv.svg"
+                        alt="Chatsheet logo" class="logo" />
+                    <div class="help-box">
+                        <h3>1-1 Help</h3>
+                        <p><button class="email-btn">help@chatsheet.com</button></p>
+                        <button class="get-in-touch-2-btn">
+                            Get in Touch
+                            <div class="get-arrow-icon-container">
+                                <svg class="get-arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M3.714 3.048a.498.498 0 0 0-.683.627l2.843 7.627a2 2 0 0 1 0 1.396l-2.842 7.627a.498.498 0 0 0 .682.627l18-8.5a.5.5 0 0 0 0-.904z"
+                                        fill="currentColor"></path>
+                                </svg>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h3>Features</h3>
+                        <ul>
+                            <li><a href="#">AI Web Scraping</a></li>
+                            <li><a href="#">AI PDF Processing</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="link-group">
+                        <h3>Use Cases</h3>
+                        <ul>
+                            <li><a href="#">AI E-commerce Automation</a></li>
+                            <li><a href="#">AI Resume Screening</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="link-group">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li><a href="#">Affiliate Program</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="link-group">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">About</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="link-group">
+                        <h3>Discover</h3>
+                        <ul>
+                            <li><a href="#">Companies</a></li>
+                            <li><a href="#">People</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="link-group">
+                        <h3>Legal</h3>
+                        <ul>
+                            <li><a href="#">Master subscription agreement</a></li>
+                            <li><a href="#">Terms of use</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>©2025 Chatsheet. All Rights Reserved.</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Twitter">
+                        <svg fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.080l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="YouTube">
+                        <svg fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="LinkedIn">
+                        <svg fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
