@@ -8,7 +8,7 @@ This clone is built for educational purposes and UI/UX practice using HTML, CSS,
 
 ## 🖥️ Live Demo
 
-[🔗 View Demo](https://your-demo-link.com)  
+[🔗 View Demo](https://razinshafayet2007.github.io/chatsheet-ai-clone/)  
 
 ---
 
