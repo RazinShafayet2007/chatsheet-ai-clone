@@ -38,20 +38,26 @@ body::-webkit-scrollbar {
 
 .navbar {
   height: 96px;
-  /* width: 80.75rem; */
-  width: 100%;
+  max-width: 1284px;
+  /* width: 100%; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 16px 52px;
-  /*margin: 12px 6px;*/
+  margin-left: auto;
+  margin-right: auto;
   position: fixed;
   z-index: 1000;
   top: 0;
   left: 0;
   right: 0;
-  margin: 0 6px;
+  /* margin: 0 6px; */
   background-color: transparent;
+  transition: background-color 1.5s;
+}
+
+.navbar.scrolled {
+  background-color: #000000;
 }
 
 .navbar-left {
@@ -472,11 +478,11 @@ body::-webkit-scrollbar {
 
 .book-demo-button {
   height: 50px;
-  width: 141.22px;
+  width: 145.22px;
   color: #FFFFFF;
   background-color: transparent;
   padding: 12px 8px 12px 16px;
-  font-size: 18.5px;
+  font-size: 1.1875rem;
   font-weight: 549;
   border: 2px solid transparent;
   border-radius: 9999px;
@@ -529,7 +535,7 @@ body::-webkit-scrollbar {
   text-align: left;
   font-size: 1.25rem;
   color: #ffffff;
-   margin-right: 30px;
+  margin-right: 30px;
 }
 
 .logos-wrapper {
@@ -887,7 +893,7 @@ body::-webkit-scrollbar {
 .automate-task {
   height: 371px;
   width: 1102px;
-  border: 1px solid grey;
+  border: 0.1px solid #312c29;
   border-radius: 15px;
   margin-top: 60px;
   background-color: #0C0A09;
@@ -918,7 +924,7 @@ body::-webkit-scrollbar {
   color: white;
 }
 
-.automate-task-div p  {
+.automate-task-div p {
   font-size: 18px;
   color: #FFFFFFB3;
   margin-bottom: 50px;
@@ -936,7 +942,7 @@ body::-webkit-scrollbar {
 .no-code {
   height: 347px;
   width: 538px;
-  border: 1px solid grey;
+  border: 0.1px solid #312c29;
   border-radius: 15px;
   background-color: #0C0A09;
   inset: 0;
@@ -976,7 +982,7 @@ body::-webkit-scrollbar {
 .action-cell {
   height: 347px;
   width: 538px;
-  border: 1px solid grey;
+  border: 0.1px solid #312c29;
   border-radius: 15px;
   background-color: #0C0A09;
   inset: 0;
@@ -1017,7 +1023,7 @@ body::-webkit-scrollbar {
 .transformative-results {
   height: 255px;
   width: 1102px;
-  border: 1px solid grey;
+  border: 0.1px solid #312c29;
   border-radius: 15px;
   margin-top: 20px;
   background-color: #0C0A09;
@@ -1048,7 +1054,7 @@ body::-webkit-scrollbar {
   color: white;
 }
 
-.transformative-results-div p  {
+.transformative-results-div p {
   font-size: 18px;
   color: #FFFFFFB3;
   margin-bottom: 30px;
@@ -1095,7 +1101,7 @@ body::-webkit-scrollbar {
 .workflows {
   height: 398px;
   width: 350px;
-  border: 1px solid grey;
+  border: 0.1px solid #312c29;
   border-radius: 15px;
   background-color: #0C0A09;
   inset: 0;
@@ -1127,7 +1133,7 @@ body::-webkit-scrollbar {
 .collaboration {
   height: 398px;
   width: 350px;
-  border: 1px solid grey;
+  border: 0.1px solid #312c29;
   border-radius: 15px;
   background-color: #0C0A09;
   inset: 0;
@@ -1158,7 +1164,7 @@ body::-webkit-scrollbar {
 .parsing {
   height: 398px;
   width: 350px;
-  border: 1px solid grey;
+  border: 0.1px solid #312c29;
   border-radius: 15px;
   background-color: #0C0A09;
   inset: 0;
@@ -1226,7 +1232,7 @@ body::-webkit-scrollbar {
 .before-chatsheet {
   height: 498px;
   width: 538px;
-  border: 1px solid grey;
+  border: 0.1px solid #312c29;
   border-radius: 15px;
   background-color: #0C0A09;
   inset: 0;
@@ -1238,7 +1244,7 @@ body::-webkit-scrollbar {
   background-size: 498px;
 }
 
- .before-chatsheet-div {
+.before-chatsheet-div {
   width: 474px;
   display: flex;
   flex-direction: column;
@@ -1258,7 +1264,7 @@ body::-webkit-scrollbar {
 .after-chatsheet {
   height: 498px;
   width: 538px;
-  border: 1px solid grey;
+  border: 0.1px solid #312c29;
   border-radius: 15px;
   background-color: #0C0A09;
   inset: 0;
@@ -1316,7 +1322,7 @@ body::-webkit-scrollbar {
 
 .social-media {
   width: 100%;
-  max-width: 1240px; 
+  max-width: 1240px;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
@@ -1349,8 +1355,10 @@ body::-webkit-scrollbar {
   justify-content: center;
   width: 48px;
   height: 48px;
-  border-radius: 0.75rem; /* rounded-xl */
-  background-color: rgba(17, 24, 39, 0.5); /* bg-gray-900/50 */
+  border-radius: 0.75rem;
+  /* rounded-xl */
+  background-color: rgba(17, 24, 39, 0.5);
+  /* bg-gray-900/50 */
   /*border: 1px solid #374151;  border-gray-700 */
 }
 
@@ -1378,8 +1386,10 @@ body::-webkit-scrollbar {
   border-radius: 9999px;
   font-size: 0.875rem;
   font-weight: 500;
-  background-color: rgba(31, 41, 55, 0.5); /* bg-gray-800 bg-opacity-50 */
-  color: rgba(255, 255, 255, 0.7); /* text-white/70 */
+  background-color: rgba(31, 41, 55, 0.5);
+  /* bg-gray-800 bg-opacity-50 */
+  color: rgba(255, 255, 255, 0.7);
+  /* text-white/70 */
 }
 
 .view-integrations-btn {
@@ -1479,7 +1489,7 @@ body::-webkit-scrollbar {
 .sales-automation {
   height: 371px;
   width: 1102px;
-  border: 1px solid grey;
+  border: 0.1px solid #312c29;
   border-radius: 15px;
   margin-top: 60px;
   background-color: #0C0A09;
@@ -1510,7 +1520,7 @@ body::-webkit-scrollbar {
   color: white;
 }
 
-.sales-automation-div p  {
+.sales-automation-div p {
   font-size: 18px;
   color: #FFFFFFB3;
   margin-bottom: 60px;
@@ -1529,7 +1539,7 @@ body::-webkit-scrollbar {
 .content-creation {
   height: 347px;
   width: 538px;
-  border: 1px solid grey;
+  border: 0.1px solid #312c29;
   border-radius: 15px;
   background-color: #0C0A09;
   inset: 0;
@@ -1571,7 +1581,7 @@ body::-webkit-scrollbar {
 .document-processing {
   height: 347px;
   width: 538px;
-  border: 1px solid grey;
+  border: 0.1px solid #312c29;
   border-radius: 15px;
   background-color: #0C0A09;
   inset: 0;
@@ -1611,7 +1621,7 @@ body::-webkit-scrollbar {
 .research {
   height: 371px;
   width: 1102px;
-  border: 1px solid grey;
+  border: 0.1px solid #312c29;
   border-radius: 15px;
   margin-top: 20px;
   background-color: #0C0A09;
@@ -1642,12 +1652,18 @@ body::-webkit-scrollbar {
   color: white;
 }
 
-.research-div p  {
+.research-div p {
   font-size: 18px;
   color: #FFFFFFB3;
   margin-bottom: 60px;
   font-weight: 400;
   line-height: 1.5;
+}
+
+.faqs-ans-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .faqs-ans {
@@ -1657,8 +1673,7 @@ body::-webkit-scrollbar {
   /* Align children at the top */
   justify-content: space-between;
   gap: 24px;
-  /*height: 100%;
-  width: 100%;*/
+  max-width: 1296px;
 }
 
 .faqs {
@@ -1668,7 +1683,7 @@ body::-webkit-scrollbar {
   flex-direction: column;
   justify-content: flex-start;
   margin-left: 30px;
-  /*margin-right: 50px;*/
+  margin-right: 50px;
 }
 
 .paragraph-1 {
@@ -1841,6 +1856,9 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  /* align-items: center; */
+  margin-left: auto; 
+  margin-right: auto;
 }
 
 .footer-container {
