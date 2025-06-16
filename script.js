@@ -30,7 +30,12 @@ document.addEventListener('click', (event)=> {
     if(!navUseCases.contains(event.target) && !secondMenuList.contains(event.target)) {
         secondMenuList.classList.remove('active');
     }
-}); 
+});
+
+window.addEventListener('scroll', ()=> {
+    firstMenuList.classList.remove('active');
+    secondMenuList.classList.remove('active');
+})
 
 window.addEventListener('scroll', ()=> {
     const navbar = document.querySelector('.navbar');
@@ -39,4 +44,25 @@ window.addEventListener('scroll', ()=> {
     } else {
         navbar.classList.remove('scrolled');
     }
+});
+
+document.addEventListener('DOMContentLoaded', ()=> {
+    const allButtons = document.querySelectorAll('.ans-button');
+    allButtons.forEach(clickedButton => {
+        clickedButton.addEventListener('click', ()=> {
+            const answer = clickedButton.nextElementSibling;
+            allButtons.forEach(otherButton => {
+                if (otherButton !== clickedButton) {
+                    otherButton.classList.remove('active');
+                    otherButton.nextElementSibling.style.maxHeight = 0;
+                }
+            });
+            clickedButton.classList.toggle('active');
+            if (clickedButton.classList.contains('active')) {
+                answer.style.maxHeight = answer.scrollHeight + 'px';
+            } else {
+                answer.style.maxHeight = 0;
+            }
+        });
+    });
 });

@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+::selection {
+  background-color: blue;
+  color: #000000;
+}
+
 .plus-jakarta-sans-<uniquifier> {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-optical-sizing: auto;
@@ -129,6 +134,7 @@ body::-webkit-scrollbar {
   border: 0.8px solid rgb(68, 65, 65);
   display: none;
   z-index: 1010;
+  cursor: pointer;
 }
 
 .menulist-1 li {
@@ -169,6 +175,7 @@ body::-webkit-scrollbar {
   border: 0.8px solid rgb(68, 65, 65);
   display: none;
   z-index: 1010;
+  cursor: pointer;
 }
 
 
@@ -1791,7 +1798,7 @@ body::-webkit-scrollbar {
   height: 76px;
   align-items: center;
   justify-content: space-between;
-  padding: 24px;
+  padding: 10px;
   text-align: left;
   transition: color 150ms;
   background: #0C0A09;
@@ -1809,6 +1816,28 @@ body::-webkit-scrollbar {
   color: white;
   font-size: 19px;
   padding-right: 16px;
+}
+
+.ans-button.active .chevron-icon {
+    transform: rotate(180deg);
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background: #0C0A09;
+    border-radius: 0 0 15px 15px;
+    padding: 0 24px;
+    width: 582px;
+}
+
+.answer p {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: white;
+  padding: 20px 0;
 }
 
 .chevron-icon-wrapper {
