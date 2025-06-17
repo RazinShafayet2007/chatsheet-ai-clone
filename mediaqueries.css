@@ -45,6 +45,7 @@
     font-size: 14px;
     margin-left: 30px;
     font-weight: 549;
+    font-family: "Plus Jakarta Sans", sans-serif;
   }
 
   .arrow-icon-container {
@@ -64,7 +65,7 @@
 
   .heading-1 {
     height: 50px;
-    width: 300px;
+    width: 280px;
     color: #FFFFFF;
     font-size: 40px;
     font-weight: 575;
@@ -75,7 +76,7 @@
 
   .heading-2 {
     height: 50.44px;
-    width: 300px;
+    width: 280px;
     color: #FFFFFF;
     font-size: 40px;
     margin-left: auto;
@@ -104,6 +105,7 @@
     width: 150.33px;
     margin-right: 20px;
     font-size: 14px;
+    font-family: "Plus Jakarta Sans", sans-serif;
   }
 
   .arrow-icon-container-2 {
@@ -304,6 +306,7 @@
   .automate-task-div .start-free-button-2 {
     margin-top: 15px;
     margin-left: -5px;
+    font-family: "Plus Jakarta Sans", sans-serif;
   }
 
   .no-code-action-cell {
@@ -371,6 +374,7 @@
   .transformative-results-div .start-free-button-2 {
     margin-top: 5px;
     margin-left: -5px;
+    font-family: "Plus Jakarta Sans", sans-serif;
   }
 
   .features-h1 {
@@ -515,6 +519,7 @@
   .sales-automation-div .start-free-button-2 {
     margin-top: 0px;
     margin-left: -5px;
+    font-family: "Plus Jakarta Sans", sans-serif;
   }
 
   .content-document {
@@ -582,6 +587,7 @@
   .research-div .start-free-button-2 {
     margin-top: -15px;
     margin-left: -5px;
+    font-family: "Plus Jakarta Sans", sans-serif;
   }
 
 
@@ -672,6 +678,7 @@
     color: white;
     font-size: 17px;
     padding-right: 16px;
+    font-family: "Plus Jakarta Sans", sans-serif;
   }
 
   .answer {
@@ -690,6 +697,7 @@
     font-weight: 300;
     color: white;
     padding: 10px 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
   }
 
   .hero-last {

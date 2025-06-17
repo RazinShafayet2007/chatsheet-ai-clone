@@ -847,6 +847,7 @@ body::-webkit-scrollbar {
     inset 0px 2px 3px #FFFFFF,
     inset 0px 0px 16px rgba(41, 37, 36, 0.3);
   width: fit-content;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .arrow-icon-container-3 {
@@ -1426,6 +1427,7 @@ body::-webkit-scrollbar {
     inset 0px 2px 3px #FFFFFF,
     inset 0px 0px 16px rgba(41, 37, 36, 0.3);
   width: fit-content;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .view-integrations-btn:hover {
@@ -1742,6 +1744,7 @@ body::-webkit-scrollbar {
     inset 0px 2px 3px #FFFFFF,
     inset 0px 0px 16px rgba(41, 37, 36, 0.3);
   width: fit-content;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .get-in-touch-btn:hover {
@@ -1972,6 +1975,7 @@ footer {
     inset 0px 2px 3px #FFFFFF,
     inset 0px 0px 16px rgba(41, 37, 36, 0.3);
   width: fit-content;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .get-in-touch-2-btn:hover {
