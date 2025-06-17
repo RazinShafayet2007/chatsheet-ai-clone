@@ -73,6 +73,10 @@ body::-webkit-scrollbar {
   gap: 1rem;
 }
 
+.dot-menu {
+  display: none;
+}
+
 .logo-container {
   display: flex;
   align-items: center;

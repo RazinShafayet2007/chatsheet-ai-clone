@@ -4,10 +4,18 @@
     max-width: 100%;
   }
 
+  .dot-menu {
+    display: block;
+    color: #ffffff;
+    margin-left: -30px;
+    margin-bottom: 5px;
+  }
+
 
   .logo-image {
-    height: 24px;
-    width: 100px;
+    height: 30px;
+    width: 120px;
+    margin-left: 0px;
   }
 
   .nav-links {
@@ -23,44 +31,30 @@
   }
 
   .google-login-button {
-    width: 100px;
-    height: 30px;
-    justify-content: flex-start;
-    gap: 0rem;
-    padding: 0rem 0.5rem;
-  }
-
-  .google-login-text {
-    height: 16px;
-    width: 60px;
-    font-size: 10px !important;
-  }
-
-  .google-icon {
-    width: 8px;
-    height: 8px;
-    margin-left: 2px;
+    display: none;
   }
 
   .start-free-button {
-    height: 24px;
-    width: 100px;
+    height: 30px;
+    width: 120px;
     gap: 5px;
     padding-left: 5px;
     padding-right: 3px;
     padding-top: 3px;
     padding-bottom: 3px;
-    font-size: 11px;
+    font-size: 14px;
+    margin-left: 30px;
+    font-weight: 549;
   }
 
   .arrow-icon-container {
-    padding: 2px;
+    padding: 4px;
     margin-left: 0.5px;
   }
 
   .arrow-icon {
-    width: 6px;
-    height: 6px;
+    width: 8px;
+    height: 8px;
   }
 
 
@@ -126,14 +120,14 @@
 
 
   .video-container {
-    width: 350.4px;
+    width: 340.4px;
     height: 400.6px;
     margin-top: -30px;
     border-radius: 15px;
   }
 
   .video {
-    width: 350.4px;
+    width: 340.4px;
     height: 400.6px;
   }
 
@@ -187,7 +181,7 @@
 
 
   .button-group {
-    width: 377px;
+    width: 367px;
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
@@ -196,7 +190,7 @@
   }
 
   .container {
-    width: 380.47px;
+    width: 370.47px;
     height: 585px;
     margin: 0 auto;
   }
@@ -211,7 +205,7 @@
   }
 
   .input-box {
-    width: 350px;
+    width: 340px;
     background: linear-gradient(to bottom, #0A0807, #110F0E);
     border: 1px solid rgba(255, 255, 255, 0.05);
     border-radius: 9999px;
@@ -241,7 +235,7 @@
     align-items: center;
     gap: 0.5rem;
     height: 39px;
-    width: 350.66px;
+    width: 340.66px;
   }
 
   .table-head .table-cell:nth-child(2),
@@ -260,7 +254,7 @@
 
   .table-off-content p {
     height: 100.75px;
-    width: 360.47px;
+    width: 350.47px;
     color: #d1d5db;
     font-size: 14px;
     line-height: 1.7;
@@ -290,16 +284,17 @@
 
   .automate-task {
     height: 398px;
-    width: 350px;
+    width: 340px;
     background-image: url("https://dev.tryecho.ai/_app/immutable/assets/automate-any-task-2x.C_u6705b.png");
     background-position: 50% 90%;
-    background-size: 350px;
+    background-size: 340px;
   }
 
   .automate-task-div {
     height: 178px;
-    width: 320px;
+    width: 310px;
     margin-top: 32px;
+    margin-left: 22px;
   }
 
   .automate-task-div p {
@@ -318,16 +313,17 @@
 
   .no-code {
     height: 398px;
-    width: 350px;
+    width: 340px;
     background-image: url("https://dev.tryecho.ai/_app/immutable/assets/no-code.C9tM_yVm.png");
     background-position: 50% 80%;
-    background-size: 350px;
+    background-size: 340px;
   }
 
   .no-code-div {
     height: 178px;
-    width: 320px;
+    width: 310px;
     margin-top: 32px;
+    margin-left: 22px;
   }
 
   .no-code-div p {
@@ -336,16 +332,17 @@
 
   .action-cell {
     height: 398px;
-    width: 350px;
+    width: 340px;
     background-image: url("https://dev.tryecho.ai/_app/immutable/assets/action-cells.BSY4HM70.png");
     background-position: 50% 70%;
-    background-size: 350px;
+    background-size: 340px;
   }
 
   .action-cell-div {
     height: 178px;
-    width: 300px;
+    width: 290px;
     margin-top: 32px;
+    margin-left: 22px;
   }
 
   .action-cell-div p {
@@ -354,16 +351,17 @@
 
   .transformative-results {
     height: 398px;
-    width: 350px;
+    width: 340px;
     background-image: url("https://dev.tryecho.ai/_app/immutable/assets/1000x-blur.DM_z7KC6.png");
     background-position: 50% 93%;
-    background-size: 350px;
+    background-size: 340px;
   }
 
   .transformative-results-div {
     height: 178px;
-    width: 280px;
+    width: 270px;
     margin-top: 32px;
+    margin-left: 22px;
   }
 
   .transformative-results-div p {
@@ -395,6 +393,33 @@
     margin-top: 60px;
     align-items: center;
     gap: 24px;
+  }
+
+  .workflows {
+  height: 398px;
+  width: 340px;
+  }
+
+  .workflows-div {
+  width: 276px;
+  }
+
+  .collaboration {
+  height: 398px;
+  width: 340px;
+  }
+
+  .collaboration-div {
+  width: 276px;
+  }
+
+  .parsing {
+  height: 398px;
+  width: 340px;
+  }
+
+  .parsing-div {
+  width: 276px;
   }
 
 
@@ -429,22 +454,22 @@
 
   .before-chatsheet {
     height: 398px;
-    width: 350px;
+    width: 340px;
   }
 
   .before-chatsheet-div {
-    width: 344px;
+    width: 334px;
     margin-left: 15px;
     margin-top: 330px;
   }
 
   .after-chatsheet {
     height: 398px;
-    width: 350px;
+    width: 340px;
   }
 
   .after-chatsheet-div {
-    width: 344px;
+    width: 334px;
     margin-left: 15px;
     margin-top: 330px;
   }
@@ -470,16 +495,17 @@
 
   .sales-automation {
     height: 398px;
-    width: 350px;
+    width: 340px;
     background-image: url("https://dev.tryecho.ai/_app/immutable/assets/generate-outreach.B1qTsFWI.png");
     background-position: 50% 93%;
-    background-size: 350px;
+    background-size: 340px;
   }
 
   .sales-automation-div {
     height: 178px;
-    width: 320px;
+    width: 310px;
     margin-top: 32px;
+    margin-left: 22px;
   }
 
   .sales-automation-div p {
@@ -498,16 +524,17 @@
 
   .content-creation {
     height: 398px;
-    width: 350px;
+    width: 340px;
     background-image: url("https://dev.tryecho.ai/_app/immutable/assets/content-creation.B2RtZ-PZ.png");
     background-position: 50% 80%;
-    background-size: 350px;
+    background-size: 340px;
   }
 
   .content-creation-div {
     height: 178px;
     width: 320px;
     margin-top: 32px;
+    margin-left: 22px;
   }
 
   .content-creation-div p {
@@ -516,16 +543,17 @@
 
   .document-processing {
     height: 398px;
-    width: 350px;
+    width: 340px;
     background-image: url("https://dev.tryecho.ai/_app/immutable/assets/doc-processing.DlQXzPRv.png");
     background-position: 50% 70%;
-    background-size: 350px;
+    background-size: 340px;
   }
 
   .document-processing-div {
     height: 178px;
-    width: 280px;
+    width: 270px;
     margin-top: 32px;
+    margin-left: 22px;
   }
 
   .document-processing-div p {
@@ -534,16 +562,17 @@
 
   .research {
     height: 398px;
-    width: 350px;
+    width: 340px;
     background-image: url("https://dev.tryecho.ai/_app/immutable/assets/automate-any-task-2x.C_u6705b.png");
     background-position: 50% 93%;
-    background-size: 350px;
+    background-size: 340px;
   }
 
   .research-div {
     height: 178px;
-    width: 320px;
+    width: 310px;
     margin-top: 32px;
+    margin-left: 22px;
   }
 
   .research-div p {
@@ -625,7 +654,7 @@
 
   .ans-button {
     display: flex;
-    width: 382px;
+    width: 342px;
     height: 60px;
     align-items: center;
     justify-content: space-between;
@@ -652,7 +681,7 @@
     background: #0C0A09;
     border-radius: 0 0 15px 15px;
     padding: 0 10px;
-    width: 382px;
+    width: 342px;
   }
 
   .answer p {
@@ -683,7 +712,7 @@
 
 
   .video-container-2 {
-    width: 350.4px;
+    width: 340.4px;
     height: 400.6px;
     margin-left: auto;
     margin-right: auto;
@@ -704,7 +733,7 @@
   }
 
   .footer-container {
-    padding: 50px 24px;
+    padding: 50px 12px;
   }
 
   .link-group h3 {
